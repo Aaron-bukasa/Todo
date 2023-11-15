@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="app">
+        <h1 class="app__title">Todo list</h1>
+        <div class="app__content">
+            <form class="app__form">
+                <input type="text" placeholder="Add new Task">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#fff"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+                </button>
+            </form>
+            <div class="app__list">
+                <div class="app__list-title">
+                    <h2>Task list</h2>
+                    <button class="delete-all">Delete All</button>
+                </div>
+                <ol class="app__list-content">
+
+                </ol>
+            </div>
+        </div>
+    </div> 
+    
+</body>
+</html>
